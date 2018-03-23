@@ -172,7 +172,7 @@ li.selected {
     border-bottom: 4px solid #3F51B5;
 }
 
-#tab-bar button img {
+#tab-bar button span {
     display: block;
     margin: 0 auto 4px auto;
 }
@@ -269,4 +269,29 @@ li.selected {
 
 .message.own {
     margin-left: 17.5%;
+}
+
+/* #7 styling Font Awsome icons */
+
+.channel-meta {
+    font-size: 24px;
+}
+.icon{
+    font-size: 24px;
+}
+
+/* toggle tab star */
+#show-star{
+    display:block;
+}
+#hidden-star {
+    display:none;
+}
+/* #8 input message */
+#input {
+    display: flex;
+    border: 0px;
+    font-size: larger;
+    flex: auto;
+    
 }
